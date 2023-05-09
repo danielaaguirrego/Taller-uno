@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+    <img src="https://geekflare.com/wp-content/uploads/2022/10/Learn-Coding-in-a-Fun-Way-on-These-7-Platforms.jpeg" alt="Curso de programación básico">
+</head>
+<body>
+    <header>
+        <h1> Curso de programación básica</h1>
+        <nav>
+            <ul>
+                <li><a href="#"> Inicio</a></li>
+                <li><a href="#">Acerca del curso</a></li>
+                <li><a href="#"> Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2>¡Registrate!</h2>
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required><br><br>
+
+      <label for="edad">Edad:</label>
+      <input type="number" id="edad" name="edad" required><br><br>
+
+      <label for="tipo_documento">Tipo de Documento:</label>
+      <select id="tipo_documento" name="tipo_documento" required>
+        <option value="">Seleccione un tipo de documento</option>
+        <option value="cedula">Cédula</option>
+        <option value="tarjeta_identidad">Tarjeta de Identidad</option>
+        <option value="pasaporte">Pasaporte</option>
+      </select><br><br>
+
+      <label for="number">Número de Documento:</label>
+      <input type="text" id="num_documento" name="num_documento" required><br><br>
+
+      <label for="email">Correo Electrónico:</label>
+      <input type="email" id="email" name="email" required><br><br>
+      <label for="nombre">Ocupación:</label>
+      <input type="text" id="nombre" name="nombre" required><br><br>
+      <label for="mensaje"> Cuentanos porqué te interesa el curso:</label> 
+        <textarea name="mensaje" id="mensaje" rows="5" required></textarea> <br>
+        <label for="mensaje"> ¿Tienes alguna pregunta sobre el curso?:</label> 
+        <textarea name="mensaje" id="mensaje" rows="5" required></textarea> <br>
+
+      <input type="submit" value="Enviar"> <br>
+      <footer></footer>
+      <h2>¡Gracias por participar!</h2>
+    </form>
+</body>
+</html>
